@@ -10,10 +10,10 @@ export default function Navbar() {
               <Link href="#" className="transition ease-in duration-100 rounded-full py-3 px-6 hover:bg-gray-700">Messages</Link>
             </li>
             <li>
-              <Link href="#" className="transition ease-in duration-100 rounded-full py-3 px-6 hover:bg-gray-700">Profile</Link>
+              <Link href="/login" className="transition ease-in duration-100 rounded-full py-3 px-6 hover:bg-gray-700">Profile</Link>
             </li>
             <li>
-              <Link href="#" className="transition ease-in duration-100 rounded-full py-3 px-6 hover:bg-gray-700">Notificaitons</Link>
+              <Link href="#" className="transition ease-in duration-100 rounded-full py-3 px-6 hover:bg-gray-700">Notifications</Link>
             </li>
             <li>
               <Link href="#" className="transition ease-in duration-100 rounded-full py-3 px-6 hover:bg-gray-700">Settings</Link>
