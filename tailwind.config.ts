@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      boxShadow: {
+        'chatbox': '0 4px 12px rgba(0, 0, 0, 0.1)'
+      }
     },
   },
   plugins: [],
