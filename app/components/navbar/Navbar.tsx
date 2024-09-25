@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Navbar() {
     return (
-      <nav className="fixed flex w-full justify-between h-[4rem] px-12 text-xl shadow-md dark:shadow-lg bg-white dark:bg-black z-[10]">
+      <nav className="fixed flex w-full justify-between h-[4rem] px-12 text-xl shadow-md dark:shadow-lg bg-white dark:bg-black z-[10] text-white">
         {/* <Image src="/logo.svg" alt="Next.js Logo" width={200} height={38} priority /> */}
         <Link className="w-1/3 text-3xl font-bold my-auto" href="/">VYBE</Link>
         <form className="flex w-1/3 items-center">
