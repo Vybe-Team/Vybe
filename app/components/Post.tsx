@@ -1,9 +1,9 @@
 import React from 'react';
-import { Post } from '../types/general';
+import { Post as PostType } from '../types/general';
 
-const Post: React.FC<Post> = ({ author, content, likes, comments }) => {
+const Post: React.FC<PostType> = ({ author, content, likes, comments }) => {
     return (
-      <div className="bg-white p-4 mb-2 rounded-lg shadow">
+      <div className="bg-background3 p-4 mb-2 rounded-lg shadow">
         <h3 className="font-bold text-lg">{author}</h3>
         <p className="mt-2">{content}</p>
         <div className="mt-4 flex justify-between text-gray-500">

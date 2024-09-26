@@ -2,14 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
+:root {
   --background: #ffffff;
-  --foreground: #171717;
+  --background2: #ededed;
+  --background3: #fafafa;
+  --foreground: #101010;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #1d1d1d;
+    --background2: #2a2a2a;
+    --background3: #1f1f1f;
     --foreground: #ededed;
   }
 }
@@ -17,11 +21,11 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-} */
+}
