@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import Posts from "./components/Posts";
 import { mockFollowers, mockPosts } from "@/public/mockData";
 import Followers from "./components/Followers";
+import Chat from "./components/chat/Chat";
 
 export default function Home() {
   return (
@@ -28,8 +29,7 @@ export default function Home() {
           </div>
         </aside>
       </div>
-
-      <button className="fixed w-[25rem] bottom-0 right-0 p-4 mr-6 bg-background3 rounded-t-lg shadow-chatbox border-[1px] dark:border-[#202020]">Chat</button>
+      <Chat/>
     </>
   );
 }
