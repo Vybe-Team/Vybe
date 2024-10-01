@@ -1,6 +1,6 @@
 import React from 'react';
-import { Follower as FollowerType } from '../types/general';
 import Follower from './Follower';
+import { Follower as FollowerType } from '../types/general';
 
 interface FollowersProps {
   followers: FollowerType[];

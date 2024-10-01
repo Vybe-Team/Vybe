@@ -9,10 +9,10 @@ export interface Post {
     createdAt: string;
   }
 
-  export interface Follower {
-    id: number;
-    name: string;
-    username: string;
-    avatarUrl: string;
-    isFollowing: boolean;
-  }
+export interface Follower {
+  id: number;
+  name: string;
+  username: string;
+  avatarUrl: string;
+  isFollowing: boolean;
+}
